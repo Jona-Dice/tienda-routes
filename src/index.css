@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+nav ul{
+  list-style-type: none;
+
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li{
+  display: inline-block;
+  justify-content: space-between;
+  padding: 10px;
+}
+.features {
+  padding: 10 px; /* or any other valid unit */
+
+}
+
+
+nav a.is-active{
+  font-weight: bold;
+  pointer-events: none;
+  background-color: rgb(68, 65, 97);
+  color: white;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: white;
+}
